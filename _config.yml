@@ -2,12 +2,12 @@
 #   Main Configs   #
 # ---------------- #
 baseurl:
-url: http://mazhuang.org
+url: http://darknights.cn
 date_format: "ordinal"
-title: 码志
-subtitle: "打码改变人生"
-description: "马壮的个人博客"
-keywords: 码志, Zhuang Ma, mzlogin, mazhuang
+title: 暗夜骑士
+subtitle: "力争上游"
+description: "人是不能闲的，一闲就会想得太多，一闲就会感情泛滥 ，所谓矫情屁事多，空虚寂寞冷，都是因为懒散堕落闲。"
+keywords: 暗夜骑士,dongzhi,toshiba,Dark knight's的个人技术博客,专注于web开发,追求前端最完美体验
 timezone: Asia/Shanghai
 encoding: "utf-8"
 side_bar_repo_limit: 5
@@ -15,12 +15,12 @@ side_bar_repo_limit: 5
 # ---------------- #
 #      Author      #
 # ---------------- #
-author: Zhuang Ma
-organization: zkh360.com
-organization_url: http://www.zkh360.com
-github_username: mzlogin
-location: Wuhan, China
-email: chumpma@gmail.com
+author: 暗夜骑士
+organization: gozap.com
+organization_url: http://www.gozap.com/
+github_username: IORI20091101
+location: Beijing, China
+email: sundongzhi11014111@gmail.com
 
 # ---------------- #
 #    Navigation    #
@@ -77,7 +77,21 @@ collections:
         output: true
         permalink: /wiki/:path/
 
-repository: mzlogin/mzlogin.github.io
+repository: IORI20091101/IORI20091102.github.io
+
+
+sass:
+    sass_dir: _sass
+    style: compressed
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - LICENSE
+  - docker_darknights
+  - "vendor"
+
 
 # ---------------- #
 #      Comments    #
@@ -88,20 +102,20 @@ comments_provider: gitalk
 # !!!Important!!! Please modify infos below to yours
 # https://disqus.com
 disqus:
-    username: 
+    username: IORI
 # https://imsun.net/posts/gitment-introduction/
 gitment:
-    owner: mzlogin
-    repo: blog-comments
+    owner: IORI20091101
+    repo: IORI20091102.github.io
     oauth:
-        client_id: d2e1cbbd298958076462
-        client_secret: b42a4178e5fd4a7cf63189ef4b1453b05c375709
+        client_id: bf219b8517d6c8fa3477
+        client_secret: 2151c0a8558d86c6d77c75a152a3e2fc9c5d39c2
 # https://github.com/gitalk/gitalk#install
 gitalk:
-    owner: mzlogin
-    repo: blog-comments
-    clientID: d2e1cbbd298958076462
-    clientSecret: b42a4178e5fd4a7cf63189ef4b1453b05c375709
+    owner: IORI20091101
+    repo: IORI20091102.github.io
+    clientID: bf219b8517d6c8fa3477
+    clientSecret: 2151c0a8558d86c6d77c75a152a3e2fc9c5d39c2
 # 在使用其它评论组件时可点击显示 Disqus
 lazy_load_disqus : false
 
@@ -118,4 +132,4 @@ simple_jekyll_search:
 #    Analytics     #
 # ---------------- #
 google:
-    analytics_id: UA-80669434-1
+    analytics_id: UA-107257239-1
